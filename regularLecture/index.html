@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML Tags</title>
+<!-- <link rel="stylesheet" href="demo.css"> -->
+ <style>
+    body{
+    margin: 0 auto;
+    background-color: rgb(137, 241, 220);
+    min-height: 100vh;
+    color: #764c4c;
+    font-family: "Montserrat", sans-serif;
+}
+header{
+   background-color: rgb(51, 221, 224);
+   padding: 20px;
+   text-align: center;
+}
+header h1 {
+    font-size: 2rem;
+}
+header p{
+    font-size: 1rem;
+}
+nav{
+    background-color: #4c6e8f;
+    color: white;
+    padding: 20px;
+}
+nav h2{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+nav ul li{
+    background: #5e3434;
+}
+nav a{
+    color: rgb(155, 126, 126);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px
+}
+ form{
+    background: rgba(139, 143, 184, 0.626) ;
+    padding: 20px   ;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(33, 24, 24, 0.1);
+}
+fieldset{
+    border:2px solid #020d0f;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(108, 119, 163);
+}
+legend{
+    font-weight: bold;
+    color: #11365b;
+    padding: 0 10px;
+    background: rgb(243, 220, 220);
+}
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color:#010b15;
+}
+input, select, textarea {
+    width:100%;
+    padding:6px;
+    border: 2px solid #011013;
+    border-radius: 5px;
+    font-size:10px;
+    background: rgb(212, 209, 209);
+}
+input:focus, select:focus, textarea:focus {
+    outline:none;
+    border-color:#172878;
+    box-shadow: 0 0 3px rgba(76, 236, 196, 0.5);
+}
+input[type="radio"],input[type="checkbox"] {
+    width:auto;
+    margin-right:5px;
+}
+input[type="range"]{
+    width:100%;
+    margin:10px 0;
+}
+input[type="color"]{
+    width:100px;
+    height:40px;
+    border: none;
+    cursor: pointer;
+}
+input[type="file"] {
+    padding: 6px;
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+    background: white;
+}
+
+input[type="submit"],
+input[type="reset"],button{
+    background-color: #4cedc4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
+    margin:5px 5px 5px 0;
+    width:auto;
+
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background-color: #db3f3f;
+}
+
+
+
+ </style>
+</head>
+<body>
+    <header><h1>Complete HTML Tags</h1>
+        <p>Welcome to my website. Here you can find a variety of content and resources.</p>
+    </header>
+    <main>
+        <nav>
+            <h2>Table of content</h2>
+            <ul>
+                <li ><a href="#Text Tags" > Text Tag</a></li>
+                <li ><a href="#Lists" > Lists</a></li>
+                <li ><a href="#Links&Media" >Links & Media</a></li>
+                <li ><a href="#Tables" > Tables</a></li>
+                <li ><a href="#Forms" > Forms</a></li>
+                <li ><a href="#SemanticTags" > Semantic tags</a></li>
+                <li ><a href="#AdvancedTags" >Advanced Tags </a></li>
+                    
+            </ul>
+        </nav>
+        <h2>
+            Text tags
+        </h2>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+<h3>Paragraphs and Text Formatting</h3>
+    </section>
+    <p>This is Regular Paragraph with <strong>Sumedh</strong>,
+        <em>italic text</em>,
+        <u>underline text</u>
+    
+    </p>
+    <p>Here is the text with <mark>this is highlighted text</mark>,
+    <del>Deleted text</del>,
+    <ins>inserted text</ins>
+    
+    <p>This paragraph contains <small>small text</small> and <big>big text</big>
+    </p>
+    
+    <p>Mathematical Expressions:H<sub>2</sub>O And 
+        E=MC<sup>2</sup>
+
+    </p>
+    <blockquote>
+        <p>This is a blockquote. It's used for longer Quotations.</p>
+        <cite>-Famous Author</cite>
+    </blockquote>
+    <p><q>This is inline quations</q>within a paragraph.</p>
+
+    <pre> 
+    This is performatted text.
+    It preserves spaces and line breaks.
+    perfect for code!
+
+</pre>
+<!--code:Inline code snippet-->
+      <code>console.log("This is inline code");</code>
+      <!--kbd:keyboard input-->
+      <kbd>Ctrl+C</kbd> to copy
+      <!--samp:sample output from a program-->
+      <samp>program output example</samp>
+      <!--var:Variable in mathematical exression or programming context-->
+      <var>x=y+z</var> (mathematical Variable)
+      <!--abbr:abbreviation with a tooltip explanation-->
+      <abbr title="Hyper Text Markup Language">HTML</abbr>
+      <!--dfn:Definition of team-->
+      <dfn>HTML</dfn>-Hyper Text Markup Language
+      <!--address Contact information-->
+
+
+<address>
+    Contact:SUMEDH <br>
+    Email:sumedh@example.com<br>
+    Phone: +1-234-567-8900
+
+</address>
+
+<section id="lists">
+ <h2>Lists</h2>
+ <h3>Unordered lists</h3>
+ <ul>
+    <li>First item</li>
+    <li>Second item</li>
+  <ul>
+  <li>Nested item 1</li>
+  <li>Nested item 2</li>
+  </ul>
+</li>
+<li>Third item</li>
+ </ul>
+ <h3>Ordered lists</h3>
+ <ol>
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+ </ol>
+<h2>Oredered Lists with Different Types</h2>
+<ol type="A">
+    <li>item A</li>
+    <li>item B</li>
+</ol>
+<ol type="I">
+    <li>Item I</li>
+    <li>Item II</li>
+</ol>
+<h2>Discription List</h2>
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheet</dd>
+
+    <dt>JavaScrips</dt>
+    <dd>Programming Language For Web Development </dd>
+
+</dl>
+</section>
+<section id="Links&Media">
+<h2>Link & Media</h2>
+<h3>Links</h3>
+<p>
+    <a href="http://www.aspireqlearning.co.in" target="_blank">visit aspireq</a>
+</p>
+<p>
+    <a href="mailto:sumedh@example.com" target="_blank">sumedh</a>
+</p>
+<p>
+    <a href="tel:+1-234-567-8900"target="_blank">call sumedh </a>
+</p>
+
+<h3>Images</h3>
+<img src="sumedh.jpg" alt="Fire logo" width="300" height="300">
+<!-- <figure>
+    <img src="LOGO.jpg" alt="Fire logo"
+     width="400" height="400">
+     <figcaption>Fire Logo</figcaption>
+     <figcaption>This is fire logo</figcaption>
+    </figure> -->
+
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="Audio.mp3" 
+        type="audio/mp3">
+    </audio>
+
+    <h3>Video</h3>
+    <video width="500" 
+    height="240" controls>
+    <source src="Video.mp4"
+    type="video/mp4">
+ </video>
+</section>
+</body>
+<html>
+
+<section id="tables">
+<h2>Tables</h2>
+<table border="2"
+
+    <caption>Students Grades Table</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sumedh Walke</td>
+            <td>Mathematics</td>
+            <td>85</td>
+            <td>Passed</td>
+        </tr>
+        <tr>
+            <td>Atul Rathod</td>
+            <td>Science</td>
+            <td>87</td>
+            <td>Passed</td>
+        </tr>
+        <tr>
+            <td>Rajashree</td>
+            <td>Maths</td>
+            <td>95</td>
+            <td>Passed</td>
+        </tr>
+        <tr>
+            <td>Akshay</td>
+            <td>Mathes</td>
+            <td>86</td>
+            <td>Passed</td>
+        </tr>
+        <tr>
+            <td>Yogesh</td>
+            <td>Computer science</td>
+            <td>85</td>
+            <td>Passed</td>
+        </tr>
+        
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2"</td>
+                <td>88.6</td>
+                <td>Passed</td>
+        </tr>
+    </tfoot>
+</table>
+
+<h3>Table with merged cells</h3>
+<table border="1">
+    <tr>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Scores</th>
+</tr>
+<tr>
+    <th>Test 1</th>
+    <th>Test 2</th>
+</tr>
+<tr>
+    <td>Sumedh</td>
+    <td>85</td>
+    <td>90</td>
+</tr>
+
+
+</table>
+
+
+
+</section>
+
+
+ 
+<iframe src="https://example.com" frameborder="1" width="400" height="200"
+    style="border: 1px solid #ccc;"
+    title="Example domain"></iframe>
+ 
+
+</iframe>
+
+><section id="forms">
+      <h2>Forms</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information Form</legend>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="firstname" required>
+          <br><br>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lastname" required>
+          <br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <br><br>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+          <br><br>
+          <label for="date">Date of Birth:</label>
+          <input type="date" id="phone" name="phone" required>
+          <br><br>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+          <br><br>
+          <label for="website">Website:</label>
+          <input type="url" id="website" name="website" required>
+          <br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <br><br>
+        </fieldset>
+<fieldset>
+          <legend>Preferences</legend>
+          <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option>Select Country</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br><br>
+
+        <!-- Skills (Multiple select) -->
+        <label for="skills">Skills:</label><br>
+        <select id="skills" name="skills" multiple size="4">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+        </select>
+        <br><br>
+
+        <!-- Gender (Radio Buttons) -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Interests (Checkboxes) -->
+        <label>Interests (check all that apply):</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="design" name="interests" value="design">
+        <label for="design">Design</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <br><br>
+
+        <!-- Experience Range -->
+        <label for="experience">Experience Level (1-10):</label>
+        <input type="range" id="experience" name="experience" min="1" max="10">
+        <br><br>
+
+        <!-- Favorite Color -->
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+</fieldset>
+      </form>
+    </section>
+
+<section id="Semantic">
+<article>
+    <header>
+        <h3>article title</h3>
+        <p>published on <time datetime="2025-06-20">20 June 2025</time></p>
+    </header>
+
+    <p>This is an article about the importance of semantic HTML. Using semantic
+          tags helps search engines and other user agents understand the content
+          better.
+</article>
+<aside>
+    <h4>Related information</h4>
+    <ul>
+        <li>
+            <a href="#">Understanding HTML5</a>
+        </li>
+        <li><a href="#">The benifits of Semantic Markup</a></li>
+        <li>
+            <a href="#">Getting Started With Web Accessibility</a>
+        </li>
+    </ul>
+</aside>
+</footer>
+<details>
+    <p> Article ttitle with author information</p>
+
+<summary>More Information About Article</summary>
+<p>This section can contain additional details about the article.</p>
+</details>
+
+<progress value="70" max="100"> 50% Completed</progress>
+      <p>progress: 70%</p>
+<meter value="8" min="0" max="10">80%</meter>
+
+<p>Rating:8/10</p>
+</section>
+
+<section id="Advanced">
+<h2>Advance HTML Elements</h2>
+<h3>Data and MicroData</h3>
+
+<p>
+    product:<data value="29.99>$29.99"</data>
+</p>
+<time datetime="2025-06-20t05:35:00">20 june 2025 at 5.35pm</time>
+</p>
+<h3>Ruby annotations (for east asian languages)</h3>
+ <ruby>
+        <rb>漢字</rb>
+        <rp>(</rp>
+        <rt>かんじ</rt>
+        <rp>)</rp>
+        <rp>(</rp>
+        <rt>kanji</rt>
+        <rp>)</rp>
+      </ruby>
+      <h3>Bidirectional text</h3>
+      <p>
+        This is a paragraph with <bdi>this is bidirectional</bdi> which should display left to right.
+      </p>
+      <bdo dir="rtl">this text should be right to left</bdo>
+      <h3>Canvas</h3>
+      <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        Your browser does not support the HTML5 canvas tag.
+      </canvas>
+      <svg width="100" height="100">
+        <rect width="100%" height="100%" fill="lightblue" />
+        <circle cx="50" cy="50" r="40" fill="white" />
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">SVG</text>
+      </svg>
+ <h3>Mathematical Contents</h3>
+      <math>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mfrac>
+          <mrow>
+            <mo>-</mo>
+            <mi>b</mi>
+            <mo>±</mo>
+            <msqrt>
+              <mrow>
+                <mi>b</mi>
+                <mo>²</mo>
+                <mo>-</mo>
+                <mn>4</mn>
+                <mi>a</mi>
+                <mi>c</mi>
+              </mrow>
+            </msqrt>
+          </mrow>
+          <mrow>
+            <mi>2a</mi>
+          </mrow>
+        </mfrac>
+      </math>
+
+    </section>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+    </main>
+    
+</body>
+</html>
+
