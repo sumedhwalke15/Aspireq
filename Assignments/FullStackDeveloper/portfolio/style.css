@@ -1,0 +1,104 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #004466;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#about img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.project-card {
+  background: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+form {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  background-color: #004466;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #006699;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #ddd;
+  margin-top: 2rem;
+}
