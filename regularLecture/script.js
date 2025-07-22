@@ -105,8 +105,23 @@ myMap.set(true,"boolean key");
 // console.log(nameofFunction());
 //parameterised
 //name==>parameter
-
+{
 function nameofFunction(name){
     return "Hello"+ name;
 }
 console.log(nameofFunction("Sumedh"));
+}
+
+// Categorize the grades based on the marks
+// 90-100 => A+
+// 80-89 => A
+// 70-79 => B+   
+// 60-69 => B
+// 50-59 => C+
+// 40-49 => C
+// 0-39 => F
+
+//if, if else,else, switch, ternary
+
+
+
